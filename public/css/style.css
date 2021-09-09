@@ -6133,7 +6133,7 @@ header nav div a {
   font-size: 15px;
 }
 header nav div span {
-  background-color: blue;
+  background-color: #3676BB;
   border-radius: 10px;
   padding: 30px;
 }
@@ -6154,7 +6154,7 @@ header img {
   font-size: xx-large;
 }
 .sc1 span:first-child {
-  background-color: #87CEFA;
+  background-color: #3676BB;
   color: white;
 }
 .sc1 span:last-of-type {
@@ -6250,6 +6250,7 @@ footer div:last-of-type {
 
   .sc2 {
     flex-direction: column;
+    margin: 0;
   }
 
   .sc3 {
