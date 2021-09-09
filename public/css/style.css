@@ -6118,7 +6118,7 @@ body {
 
 header nav {
   display: flex;
-  background-color: #778899;
+  background-color: #252525;
 }
 header nav div {
   flex: 1;
@@ -6206,7 +6206,7 @@ header img {
   padding: 10px 10px;
 }
 .sc3 .color {
-  background-color: #708090;
+  background-color: #252525;
   margin: 0 2px;
   color: white;
 }
@@ -6222,7 +6222,7 @@ header img {
 }
 
 footer div:first-of-type {
-  background-color: #1E90FF;
+  background-color: #3676BB;
   text-align: center;
   color: white;
   padding: 40px 0px;
@@ -6235,7 +6235,7 @@ footer div:last-of-type {
   margin: 0;
   padding: 5px;
   text-align: center;
-  background-color: #708090;
+  background-color: #252525;
   color: white;
 }
 
@@ -6263,7 +6263,6 @@ footer div:last-of-type {
 
   .sc3 h5, .sc3 span {
     padding: 20px;
-    justify-content: space-between;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
