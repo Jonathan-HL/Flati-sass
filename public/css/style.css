@@ -6112,4 +6112,176 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+body {
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  background-color: #778899;
+}
+header nav div {
+  flex: 1;
+  text-align: center;
+  color: white;
+  margin: auto;
+}
+header nav div a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+}
+header nav div span {
+  background-color: blue;
+  border-radius: 10px;
+  padding: 30px;
+}
+header img {
+  width: 100%;
+}
+
+.sc1 {
+  background-color: whitesmoke;
+  display: flex;
+  padding: 50px 0px;
+}
+.sc1 div {
+  margin: auto;
+  text-align: center;
+}
+.sc1 div p {
+  font-size: xx-large;
+}
+.sc1 span:first-child {
+  background-color: #87CEFA;
+  color: white;
+}
+.sc1 span:last-of-type {
+  color: #87CEFA;
+}
+
+.sc2 {
+  display: flex;
+  text-align: center;
+  margin: 0 5%;
+}
+.sc2 div {
+  background-color: whitesmoke;
+  margin: 20px;
+  padding: 20px 0px;
+}
+.sc2 i {
+  color: blue;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: white;
+}
+.sc2 span {
+  color: #87CEFA;
+}
+
+.sc3 {
+  display: flex;
+  margin: 5% 5%;
+  flex-wrap: nowrap;
+}
+.sc3 div {
+  text-align: center;
+  margin-right: 10%;
+  margin: 10px 0;
+}
+.sc3 div h3 {
+  text-align: start;
+}
+.sc3 div p {
+  text-align: start;
+}
+.sc3 div button {
+  background-color: #1E90FF;
+  display: block;
+  border: 1px solid;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 10px;
+}
+.sc3 .color {
+  background-color: #708090;
+  margin: 0 2px;
+  color: white;
+}
+.sc3 .color h5 {
+  margin: 5px 0px;
+}
+.sc3 .color span {
+  text-align: center;
+  font-size: small;
+}
+.sc3 img {
+  width: 100%;
+}
+
+footer div:first-of-type {
+  background-color: #1E90FF;
+  text-align: center;
+  color: white;
+  padding: 40px 0px;
+}
+footer i {
+  font-size: 30px;
+  margin: 0 3px;
+}
+footer div:last-of-type {
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+  background-color: #708090;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  header nav div span {
+    padding: 0;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  .sc2 {
+    flex-direction: column;
+  }
+
+  .sc3 {
+    flex-direction: column;
+    margin: 0px 0px;
+  }
+
+  .sc3 .color {
+    margin: 2px 0px;
+  }
+
+  .sc3 h5, .sc3 span {
+    padding: 20px;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header nav div span {
+    padding: 0;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  .sc2 {
+    margin: 0;
+  }
+
+  .sc3 {
+    margin: 20px 20px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
